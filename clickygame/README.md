@@ -12,3 +12,5 @@ CLICK your way through the Avengers!
 
 Summary
 CLICKY-GAME is built with React.js. Thus, the application is component based, able to keeps track of change events using state, and updates to the page render dynamically and without page refresh.
+
+<img src="./public/imgs/ClickyGameDemo.png"> </img>
