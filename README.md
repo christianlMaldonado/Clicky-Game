@@ -1,4 +1,3 @@
-## CLicky Game
 
 ## _About_
 
