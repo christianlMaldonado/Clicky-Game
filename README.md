@@ -1,4 +1,4 @@
-# Clicky-Game (React.js)
+## CLicky Game
 
 ## _About_
 
