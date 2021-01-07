@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import GridMDC from "./components/GridMDC";
-import PaperMDC from "./components/PaperMDC";
-import CharCard from "./components/CharCard";
-import Score from "./components/Score";
-import Alert from "./components/Alert";
-import NavBar from "./components/NavBar";
-import BottomNavMDC from "./components/BottomNavMDC";
+import GridMDC from "./Components/GridMDC";
+import PaperMDC from "./Components/PaperMDC";
+import CharCard from "./Components/CharCard";
+import Score from "./Components/Score";
+import Alert from "./Components/Alert";
+import NavBar from "./Components/NavBar";
+import BottomNavMDC from "./Components/BottomNavMDC";
 import characters from "./characters.json";
 
 class App extends Component {
@@ -63,7 +63,7 @@ class App extends Component {
 
     alertWinner = (newState) => {
         if (newState.pickedChars.length === 12) {
-            newState.alertMessage = "Winner Winner Chicken Dinner!";
+            newState.alertMessage = "Winner Winner!";
             newState.pickedChars = [];
             this.setState((this.state = newState));
         }
